@@ -5,7 +5,7 @@ description = ""
 authors = ["Ought <team@ought.org>"]
 
 [tool.poetry.dependencies]
-python = "^3.7.12"
+python = ">=3.7.12,<3.11"
 requests = "2.21.0"
 country_converter = "0.6.7"
 tqdm = "4.45.0"
@@ -13,12 +13,12 @@ scipy = "1.7.3"
 matplotlib = "3.5.1"
 seaborn = "0.11.2"
 typing_extensions = "3.7.4.2"
-jax = "0.1.75"
+jax = "0.2.26"
 jaxlib = "0.1.75"
 pandas = "1.3.5"
 sphinx-autodoc-typehints = "^1.10.3"
 plotnine = "^0.8.0"
-numpyro = {git = "https://github.com/pyro-ppl/numpyro.git", rev = "cda5fac353d162d34a76cc6b05033e24bd203fa0"}
+numpyro = {git = "https://github.com/pyro-ppl/numpyro.git", rev = "5c9c644532620bd6a70d43d98d8f87f8400483ac"}
 
 # Dataclasses only needed on 3.6, was merged into standard library for 3.7+
 dataclasses = {version="0.7", python="~3.6"}
